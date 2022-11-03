@@ -398,52 +398,40 @@
         <h2 class="modal-text">Залиште свої дані, ми вам передзвонимо</h2>
         <label class="modal-form-space">
           <span class="label-text">Ім'я</span>
-          <input type="text" name="name" class="form-input" id="name" autocomplete="on">
+          <input type="text" name="name" class="form-input" id="name" autocomplete="on" placeholder="Степан Бандера)">
           <svg class="icon">
             <use href="./images/icons.svg#icon-man"></use>
           </svg>
         </label>
         <label class="modal-form-space">
           <span class="label-text">Телефон</span>
-          <input type="tel" name="phone" class="form-input" autocomplete="on">
+          <input type="tel" name="phone" class="form-input" autocomplete="on" placeholder="+380...">
           <svg class="icon">
             <use href="./images/icons.svg#icon-telephone"></use>
           </svg>
         </label>
         <label class="modal-form-space">
           <span class="label-text">Пошта</span>
-          <input type="email" name="mail" class="form-input" autocomplete="on">
+          <input type="email" name="mail" class="form-input" autocomplete="on" placeholder="banderarulit@gmail.com">
           <svg class="icon">
             <use href="./images/icons.svg#icon-email-black"></use>
           </svg>
         </label>
         <label class="modal-form-space">
           <span class="label-text">Коментар</span>
-           <textarea
-            class="form-textarea"
-            name="comment"
-            rows="6"
-            placeholder="Введіть текст"
-          ></textarea>
+           <textarea class="form-textarea" name="comment" rows="6" placeholder="Введіть текст"></textarea>
         </label>
 
         <label class="modal-form-space checkbox-label">
-           <input
-            class="form-checkbox visually-hidden"
-            type="checkbox"
-            name="control"
-          />
-          <span class="checkbox-icon"></span>
-          <svg class="checked-icon">
-            <use href="./images/icons.svg#icon-modal-checkbox"></use>
-          </svg>
+           <input  class="form-checkbox visually-hidden"  type="checkbox"  name="control"/>
+          <span class="checkbox-icon checked-icon"></span>
+          
           <span class="label-text">Погоджуюся з розсилкою та приймаю 
-            <a class="link" href="#"> Умови договору</a></span>
+            <a class="modal-link" href="#"> Умови договору</a></span>
 
         </label>
         <button class="submit-btn" type="submit">Відправити</button>
 
-      
         <button class="modal-button" type="button" data-modal-close>
           <svg class="modal-btn-close">
             <use class="icon-cls" href="./images/icons.svg#modal-button"></use>
